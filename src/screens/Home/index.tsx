@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { View, Text, FlatList } from "react-native"
+import { EmptyList } from "../../components/EmptyList"
 import { Header } from "../../components/Header"
 
 import { styles } from "./styles"
@@ -42,9 +43,7 @@ export function Home() {
 
                     showsVerticalScrollIndicator={false}
                     ListEmptyComponent={() => (
-                        <Text >
-                            Ninguém chegou no evento ainda? Adicione participantes a sua lista de presença!
-                        </Text>
+                       <EmptyList/>
                     )}
                 />
 

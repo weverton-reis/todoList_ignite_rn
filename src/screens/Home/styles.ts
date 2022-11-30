@@ -14,7 +14,8 @@ export const styles = StyleSheet.create({
     info:{
         width: '100%',
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        marginBottom: 20
        
     },
 
