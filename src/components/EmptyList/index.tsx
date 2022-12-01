@@ -5,6 +5,7 @@ import { styles } from "./styles"
 import ClipboardIcon from "../../assets/clipboard.svg"
 
 export function EmptyList() {
+ 
     return (
         <View style={styles.container}>
             <ClipboardIcon/>

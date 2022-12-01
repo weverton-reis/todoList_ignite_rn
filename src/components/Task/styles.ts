@@ -19,7 +19,6 @@ export const styles = StyleSheet.create({
     text:{
         flex:1,
         fontSize: 14,
-        color: '#F2F2F2',
         marginHorizontal: 8,
     },
 
